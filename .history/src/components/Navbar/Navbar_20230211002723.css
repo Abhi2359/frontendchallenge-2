@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+
+.header{
+    background-color: aqua;
+    height: 100px;
+}
+
+.navigation{
+  
+   background-color: black;
+}
+.navbar{
+    height: 20px;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+   
+
+} 
+.navbar ul li{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: smaller;
+}
+
+.navbar ul li a{
+ text-decoration: none;
+ color: gray;
+}
+
+ h1{
+    font-weight: 600;
+ }
+
+ .avatar{
+    height: 50px;
+    padding-bottom: 50px;
+    flex-grow: 4;
+ }
+.cart{
+    display: flex;
+    margin-left: 500px;
+}
+ .horizontal_break{
+    margin-bottom: 20px;
+ }
+ 
