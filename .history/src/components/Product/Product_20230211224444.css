@@ -6,6 +6,7 @@
   padding-top: 30px;
   margin-top: 30px;
   width: 100%;
+
 }
 
 .image {
@@ -79,6 +80,7 @@
   margin-left: 200px;
 }
 .company {
+  
 }
 
 .company h5 {
@@ -97,7 +99,7 @@
 }
 .price {
   display: flex;
-  font-weight: bolder;
+  font-family: monospace, courier new, sans-serif;
 }
 
 .offer {
@@ -122,24 +124,25 @@
 }
 
 .discount {
-  font-weight: bolder;
+  font-family: monospace, courier new, sans-serif;
 }
 
 .strike {
   text-decoration: line-through;
   margin-top: -10px;
   color: gray;
+  font-family: monospace, courier new, sans-serif;
 }
 
-.cart_count {
-  /* background-color: aqua;  */
-
+.cart_count{
+   /* background-color: aqua;  */
+   
   display: flex;
   justify-content: space-between;
   align-content: end;
 }
 
-.no_of_items {
+.no_of_items{
   display: flex;
   justify-content: space-evenly;
   width: 40%;
@@ -149,27 +152,29 @@
   margin-top: 10px;
 }
 
-.no_of_items button {
-  border: none;
-  background-color: rgb(236, 231, 231);
+.no_of_items button{
+border: none;
+background-color: rgb(236, 231, 231)
 }
 
-.add_to_cart {
-  margin-top: 12px;
-  margin-right: 50px;
-  /* background-color: brown;  */
-  width: 350px;
-  height: 50px;
-  margin-bottom: 10px;
+.add_to_cart{
+margin-top: 12px;
+margin-right: 50px;
+ /* background-color: brown;  */
+width: 350px;
+height: 50px;
+margin-bottom: 10px;
+
 }
 
-.add_to_cart button {
+.add_to_cart button{
   margin-left: 5px;
-  height: 90%;
+  height:90%;
   width: 100%;
-  background-color: rgb(255, 141, 2);
+  background-color: rgb(255, 141, 2) ;
   border: none;
   border-radius: 10px;
   color: white;
   font-weight: bold;
+  
 }
