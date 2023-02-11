@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap");
+
+.product_page {
+  height: 100vh;
+  display: flex;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.image {
+  margin-left: 50px;
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+.larger_img {
+  margin: 20px;
+  width: 300px;
+}
+
+.larger_img img {
+  height: 340px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.images {
+  display: flex;
+}
+
+.images img {
+  margin: 15px;
+  height: 65px;
+  border-radius: 15px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.modal-content {
+  background-color: white;
+  display: flex;
+  margin-right: 300px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 31%;
+  height: 70%;
+  /* overflow: auto; */
+}
+
+.modal-content img {
+  /* padding-bottom: 40px; */
+  border-radius: 15px;
+  height: 380px;
+}
+.click {
+  margin-bottom: 300px;
+}
+.selectedImage img {
+  width: 400px;
+  height: 400px;
+}
+
+.product_description {
+  margin-left: 200px;
+}
+.company {
+}
+
+.company h5 {
+  color: rgb(225, 130, 15);
+  font-weight: bolder;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.adv_line {
+  font-family: "Heebo", sans-serif;
+}
+
+.product_para {
+  font-family: "Kumbh Sans", sans-serif;
+  color: gray;
+}
+.price {
+  display: flex;
+}
+
+.offer {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+
+  width: 50px;
+  height: 10px;
+
+  border-radius: 10px;
+}
+
+.offer h3 {
+  background-color: rgb(242, 223, 199);
+  color: rgb(236, 133, 6);
+  margin-left: 10px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  width: 45px;
+  font-weight: bolder;
+}
+
+.discount {
+
+}
+
+.strike {
+  text-decoration: line-through;
+  margin-top: -10px;
+  color: gray;
+}
+
+.cart_count{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.
