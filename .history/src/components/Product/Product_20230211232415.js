@@ -18,6 +18,7 @@ const Product = () => {
   const [selectedImage, setSelectedImage] = useState(product1);
   const [isOpen, setIsOpen] = useState(false);
   const [count, setCount] = useState(0);
+  
 
   const handleProductClick = () => {
     setIsOpen(true);
@@ -37,7 +38,9 @@ const Product = () => {
     }
   };
   const handleAddToCart = () => {
+   
     if (count === 0) {
+      
       setCount(count + 1);
     } else {
       setCount(count);
@@ -129,7 +132,11 @@ const Product = () => {
               </button>
             </div>
             <div className="add_to_cart">
-              <button onClick={handleAddToCart}>
+              <button
+                c}
+                onClick={handleAddToCart}
+                disabled={isDisabled}
+              >
                 <Cart /> Add to Cart
               </button>
             </div>
