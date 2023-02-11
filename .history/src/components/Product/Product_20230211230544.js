@@ -41,9 +41,7 @@ const Product = () => {
     {
       setCount(count+1)
     }
-    else{
-      setCount(count)
-    }
+    
   }
   return (
     <>

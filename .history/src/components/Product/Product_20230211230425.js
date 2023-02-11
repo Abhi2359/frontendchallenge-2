@@ -39,10 +39,7 @@ const Product = () => {
   const handleAddToCart =()=>{
     if(count===0)
     {
-      setCount(count+1)
-    }
-    else{
-      setCount(count)
+      setCount()
     }
   }
   return (
@@ -131,7 +128,7 @@ const Product = () => {
             </button>
           </div>
           <div className="add_to_cart">
-            <button onClick={handleAddToCart} >
+            <button  >
               <Cart /> Add to Cart
             </button>
           </div>
