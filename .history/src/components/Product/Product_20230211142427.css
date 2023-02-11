@@ -1,0 +1,24 @@
+.product_page{
+height: 100vh;
+background-color: aqua;
+padding-top: 30px;
+margin-top: 30px;
+
+}
+
+.image{
+    
+width: 300px;
+margin-bottom: 60px;
+}
+
+.larger_img{
+margin: 20px;
+width:300px;
+
+}
+
+.larger_img img{
+    height: 300px;
+    
+}
